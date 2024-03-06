@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpp1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\SDL2-2.30.0\;CMake Files\SDL2-2.30.0\cmake\;CMake Files\SDL2-2.30.0\x86_64-w64-mingw32\;CMake Files\SDL2-2.30.0\x86_64-w64-mingw32\lib\;CMake Files\SDL2-2.30.0\x86_64-w64-mingw32\lib\cmake\;CMake Files\SDL2-2.30.0\x86_64-w64-mingw32\lib\cmake\SDL2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Projects/C/SDL_template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp1">
+				<Option output="E:/Projects/C/SDL_template/cmake-build-debug/cpp1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Projects/C/SDL_template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Projects/C/SDL_template/SDL2-2.30.0/x86_64-w64-mingw32/include"/>
+					<Add directory="E:/Projects/C/SDL_template/SDL2-2.30.0/x86_64-w64-mingw32/include/SDL2"/>
+					<Add directory="D:/Software/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Software/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Software/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Software/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Software/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Software/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Software/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp1"/>
+					<CompileFile command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp1/fast">
+				<Option output="E:/Projects/C/SDL_template/cmake-build-debug/cpp1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Projects/C/SDL_template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Projects/C/SDL_template/SDL2-2.30.0/x86_64-w64-mingw32/include"/>
+					<Add directory="E:/Projects/C/SDL_template/SDL2-2.30.0/x86_64-w64-mingw32/include/SDL2"/>
+					<Add directory="D:/Software/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Software/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Software/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Software/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Software/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Software/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Software/CLion 2023.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp1/fast"/>
+					<CompileFile command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Projects/C/SDL_template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Projects/C/SDL_template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Software/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Projects/C/SDL_template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Projects/C/SDL_template/main.cpp">
+			<Option target="cpp1"/>
+		</Unit>
+		<Unit filename="E:/Projects/C/SDL_template/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/Projects/C/SDL_template/SDL2-2.30.0/cmake/sdl2-config-version.cmake">
+			<Option virtualFolder="CMake Files\SDL2-2.30.0\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Projects/C/SDL_template/SDL2-2.30.0/cmake/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\SDL2-2.30.0\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Projects/C/SDL_template/SDL2-2.30.0/x86_64-w64-mingw32/lib/cmake/SDL2/sdl2-config-version.cmake">
+			<Option virtualFolder="CMake Files\SDL2-2.30.0\x86_64-w64-mingw32\lib\cmake\SDL2\"/>
+		</Unit>
+		<Unit filename="E:/Projects/C/SDL_template/SDL2-2.30.0/x86_64-w64-mingw32/lib/cmake/SDL2/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\SDL2-2.30.0\x86_64-w64-mingw32\lib\cmake\SDL2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
