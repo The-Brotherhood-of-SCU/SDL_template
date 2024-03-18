@@ -128,6 +128,30 @@ cpp1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp1.dir\build.make CMakeFiles/cpp1.dir/build
 .PHONY : cpp1/fast
 
+Assets.obj: Assets.cpp.obj
+.PHONY : Assets.obj
+
+# target to build an object file
+Assets.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp1.dir\build.make CMakeFiles/cpp1.dir/Assets.cpp.obj
+.PHONY : Assets.cpp.obj
+
+Assets.i: Assets.cpp.i
+.PHONY : Assets.i
+
+# target to preprocess a source file
+Assets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp1.dir\build.make CMakeFiles/cpp1.dir/Assets.cpp.i
+.PHONY : Assets.cpp.i
+
+Assets.s: Assets.cpp.s
+.PHONY : Assets.s
+
+# target to generate assembly for a file
+Assets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp1.dir\build.make CMakeFiles/cpp1.dir/Assets.cpp.s
+.PHONY : Assets.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... cpp1
+	@echo ... Assets.obj
+	@echo ... Assets.i
+	@echo ... Assets.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

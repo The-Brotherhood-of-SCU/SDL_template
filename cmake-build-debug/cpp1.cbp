@@ -86,6 +86,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/Projects/C/SDL_template/Assets.cpp">
+			<Option target="cpp1"/>
+		</Unit>
+		<Unit filename="E:/Projects/C/SDL_template/Assets.h">
+			<Option target="cpp1"/>
+		</Unit>
 		<Unit filename="E:/Projects/C/SDL_template/main.cpp">
 			<Option target="cpp1"/>
 		</Unit>

@@ -9,7 +9,9 @@ set(sdl2_DIR "SDL2-2.30.0/cmake")
 find_package(sdl2 REQUIRED)
 include_directories(${SDL2_INCLUDE_DIRS})
 
-add_executable(cpp1 main.cpp)
+add_executable(cpp1 main.cpp
+        Assets.cpp
+        Assets.h)
 
 
 target_link_libraries(cpp1 ${SDL2_LIBRARIES})

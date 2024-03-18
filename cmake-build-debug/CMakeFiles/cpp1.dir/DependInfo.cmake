@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "E:/Projects/C/SDL_template/Assets.cpp" "CMakeFiles/cpp1.dir/Assets.cpp.obj" "gcc" "CMakeFiles/cpp1.dir/Assets.cpp.obj.d"
   "E:/Projects/C/SDL_template/main.cpp" "CMakeFiles/cpp1.dir/main.cpp.obj" "gcc" "CMakeFiles/cpp1.dir/main.cpp.obj.d"
   )
 
